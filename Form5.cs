@@ -43,7 +43,7 @@ namespace praktika
                             if (reader.Read())
                             {
                                 // Пользователь найден, проверяем тип
-                                string role = reader["Kodovoeslovo"].ToString();
+                                string role = reader["Kodovoeslovo"].ToString(); //Неявное преобразование в string, можно заменить на reader.GetString()
 
                                 if (role == "Администратор")
                                 {

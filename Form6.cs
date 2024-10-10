@@ -28,7 +28,7 @@ namespace praktika
             // Настройка подключения к базе данных
             string connectionString = "server=localhost;database=clinic;Uid=root;Pwd=34neverdXe!451219S!;";
             connection = new MySqlConnection(connectionString);
-            connection.Open();
+            connection.Open(); // Нет обработчика ошибок для проверки подключения к БД
 
             // Отображение данных таблицы appointments на tabPage1
             DisplayDataInTab("SELECT * FROM clinic.users;", tabPage1);

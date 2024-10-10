@@ -23,7 +23,7 @@ namespace praktika
         public Form9()
         {
             InitializeComponent();
-            LoadServices();
+            LoadServices(); //Неккоректное использование LoadServices()
         }
 
         private void LoadServices()

@@ -65,7 +65,7 @@ namespace praktika
             }
         }
 
-        private void Form8_Load(object sender, EventArgs e)
+        private void Form8_Load(object sender, EventArgs e) //Пустой метод
         {
 
         }

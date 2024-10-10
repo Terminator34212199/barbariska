@@ -65,7 +65,7 @@ namespace praktika
             }
         }
 
-        private void Form7_Load(object sender, EventArgs e)
+        private void Form7_Load(object sender, EventArgs e) //Пустой метод
         {
 
         }
@@ -75,12 +75,12 @@ namespace praktika
             Close();   
         }
 
-        private void Form7_Load_1(object sender, EventArgs e)
+        private void Form7_Load_1(object sender, EventArgs e) //Пустой метод
         {
 
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e) //Пустой метод
         {
 
         }
