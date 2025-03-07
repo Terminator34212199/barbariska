@@ -24,7 +24,7 @@ namespace praktika
 
         private void label1_Click(object sender, EventArgs e) //пустой метод
         {
-
+            // Пусто
         }
 
         private void button1_Click(object sender, EventArgs e) //Отсутствие обработки ошибок
